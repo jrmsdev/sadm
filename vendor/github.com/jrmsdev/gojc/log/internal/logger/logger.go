@@ -16,6 +16,7 @@ var ErrInvalidLevel = errors.New("invalid logger level: %d")
 var flagsDebug int = log.Ldate | log.Ltime | log.Lmicroseconds | log.Llongfile
 var flagsDefault int = log.Ldate | log.Ltime | log.Lmicroseconds
 var flagsColored int = 0
+var flagsColoredDebug int = log.Llongfile
 
 const (
 	PANIC = iota
@@ -56,7 +57,11 @@ func (l *Logger) SetLevel(lvl int) error {
 	}
 	l.lvl = lvl
 	if l.lvl == DEBUG {
-		log.SetFlags(flagsDebug)
+		if l.colored {
+			log.SetFlags(flagsColoredDebug)
+		} else {
+			log.SetFlags(flagsDebug)
+		}
 	} else if l.colored {
 		log.SetFlags(flagsColored)
 	} else {

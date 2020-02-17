@@ -14,5 +14,4 @@ func main() {
 	flag.Parse()
 	log.Init()
 	log.Print("sadm")
-	log.Info("sadm")
 }

@@ -1,8 +1,2 @@
-github.com/jrmsdev/gojc v0.0.0-20200211033055-c4322fb036f5 h1:v4iXxBYnG0fCIdv3TvQW2nmBX+RR/1ZzeYkkv3BcPJ8=
-github.com/jrmsdev/gojc v0.0.0-20200211033055-c4322fb036f5/go.mod h1:K/qTIliEjtQ84/GkVaCmsoq1sIWL0cJaKWaevt70UfQ=
-github.com/jrmsdev/gojc v0.0.0-20200217200020-a13ef4b2ec39 h1:vXNTWqHwDtaO/2CWhnjbAsDG5ck71MqZv8Om3kh2Xk4=
-github.com/jrmsdev/gojc v0.0.0-20200217200020-a13ef4b2ec39/go.mod h1:K/qTIliEjtQ84/GkVaCmsoq1sIWL0cJaKWaevt70UfQ=
-github.com/jrmsdev/gojc v0.0.0-20200217202101-81e9d5e1d643 h1:C2yrvdVzNZOdleX8Fl1Ry/NPNXc15qUDBzgk9Uw0p6M=
-github.com/jrmsdev/gojc v0.0.0-20200217202101-81e9d5e1d643/go.mod h1:K/qTIliEjtQ84/GkVaCmsoq1sIWL0cJaKWaevt70UfQ=
-github.com/jrmsdev/gojc v0.0.0-20200217202918-2ae7965ad844 h1:U6auMipgnbDI47sXVQT8JLyzSqOTfQdJC1IEvZmhlSo=
-github.com/jrmsdev/gojc v0.0.0-20200217202918-2ae7965ad844/go.mod h1:K/qTIliEjtQ84/GkVaCmsoq1sIWL0cJaKWaevt70UfQ=
+github.com/jrmsdev/gojc/errors v0.0.0-20200217203441-29f910e95d6a/go.mod h1:zejG/T2xoAGIwejXwA7PeqbAFBntdJlenudnDH9QQz0=
+github.com/jrmsdev/gojc/log v0.0.0-20200217203441-29f910e95d6a/go.mod h1:y/qLZIS/S1SOL+Ve5gnzT1ZMZt/Ec0YGRMgBPe+95U8=

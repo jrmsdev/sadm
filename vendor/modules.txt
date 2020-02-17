@@ -1,4 +1,5 @@
-# github.com/jrmsdev/gojc v0.0.0-20200217202918-2ae7965ad844
+# github.com/jrmsdev/gojc/errors v0.0.0-20200217203441-29f910e95d6a
 github.com/jrmsdev/gojc/errors
+# github.com/jrmsdev/gojc/log v0.0.0-20200217203441-29f910e95d6a
 github.com/jrmsdev/gojc/log
 github.com/jrmsdev/gojc/log/internal/logger

@@ -1,2 +1,1 @@
-github.com/jrmsdev/gojc/errors v0.0.0-20200217203441-29f910e95d6a/go.mod h1:zejG/T2xoAGIwejXwA7PeqbAFBntdJlenudnDH9QQz0=
-github.com/jrmsdev/gojc/log v0.0.0-20200217203441-29f910e95d6a/go.mod h1:y/qLZIS/S1SOL+Ve5gnzT1ZMZt/Ec0YGRMgBPe+95U8=
+github.com/jrmsdev/gojc v0.0.0-20200217204708-83540c99b4dd/go.mod h1:K/qTIliEjtQ84/GkVaCmsoq1sIWL0cJaKWaevt70UfQ=

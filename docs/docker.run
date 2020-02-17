@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+ARGS=${@:-'serve'}
+docker run -it --rm -v ${PWD}/docs:/srv/jekyll -p 127.0.0.1:4000:4000 \
+	jrmsdev/sadm:docs jekyll ${ARGS}
+exit 0
